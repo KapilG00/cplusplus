@@ -10,8 +10,9 @@
 main
 temp
 
-# Ignore all extensionless files (optional, if you name binaries without extensions)
-[!*.]*
+
+*.
+!*.*
 
 # Ignore build directories
 /build/
