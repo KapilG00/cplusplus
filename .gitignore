@@ -1,4 +1,25 @@
-*.exe
+# Ignore all object and binary files
+*.o
 *.out
+*.exe
+*.a
+*.so
+*.dll
+
+# Ignore files with no extension (common for compiled C++ programs)
+main
 temp
+
+# Ignore all extensionless files (optional, if you name binaries without extensions)
+[!*.]*
+
+# Ignore build directories
+/build/
+/bin/
+/dist/
+
+# Editor/OS-specific
+*.log
+*.swp
+.DS_Store
 
