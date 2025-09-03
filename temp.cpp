@@ -6,6 +6,7 @@ using namespace std;
 int main() {
     int x;
     cout << "Value of x is: " << x << endl;
+    cout << "Test Enjoyer!!" << endl;    
     return 0;
 
 
