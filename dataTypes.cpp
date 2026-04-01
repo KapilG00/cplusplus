@@ -28,8 +28,10 @@ int main() {
     cout << f << " " << g << endl;
     
     string h;
-    getline(cin, h);
+    getline(cin >> ws, h);
     cout << h << endl;
+
+    cout << "ADFG" << endl;
     
     // char
     char i = 'k';
